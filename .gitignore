@@ -49,7 +49,7 @@ wp-content/blogs.dir/
 wp-content/upgrade/
 wp-content/backup-db/
 wp-content/backups
-wp-content/1646ad5c0a-backups
+wp-content/0f5b366a5e-backups/
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/cache/
@@ -65,6 +65,13 @@ wp-content/plugins/backupwordpress
 wp-content/plugins/akismet
 wp-content/plugins/jetpack
 wp-content/plugins/hello.php
+wp-content/plugins/unattach
+wp-content/plugins/regenerate-thumbnails
+wp-content/plugins/options-framework
+wp-content/plugins/gravity forms
+wp-content/plugins/google-analytics-for-wordpress
+wp-content/plugins/enable-media-replace
+wp-content/plugins/cart66
 
 
 
