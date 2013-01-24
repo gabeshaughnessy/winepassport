@@ -79,7 +79,8 @@ height: 400px;
 	line-height: 41px;
 	vertical-align: top;
 	height: 38px;
-        font-size: 16px;
+        font-size: 24px;
+        color:  #411;
         white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -174,14 +175,21 @@ background: url(images/cta_btn_bg.png) no-repeat;
 width: 281px;
 height: 33px;
 text-indent: 0;
+text-transform: uppercase;
 position: relative;
 top: -10px;
 text-align: center;
 padding-top: 18px;
-font-family: 'Cabin Sketch';
+	color: #556699;
+font-family: 'Droid Serif';
 font-weight: 700;
-font-size: 24px;
+font-size: 20px;
 text-shadow: 0 -1px 0px rgba(0, 0, 0, .5), 0 1px 2px rgba(255, 255, 255,0.2);
+
+}
+.cta_btn:hover {
+	color: #224466;
+	text-decoration: none;
 }
 #main_cta .cta{
 	position: relative;
@@ -263,8 +271,8 @@ text-shadow: 0 -1px 0px rgba(0, 0, 0, .5), 0 1px 2px rgba(255, 255, 255,0.2);
 }
 
 #partner-details #address {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 14px;
+	line-height: 20px;
 	margin-top: 18px;
 	
 } 
@@ -289,6 +297,7 @@ text-shadow: 0 -1px 0px rgba(0, 0, 0, .5), 0 1px 2px rgba(255, 255, 255,0.2);
 	float: left;
 	width: 100%;
 	margin: 18px 0;
+	font-size:  12px;
 }
 #partner-details #passport-discount {
 	float: left;
