@@ -9,7 +9,6 @@ readme.html
 _readme_.txt
 error_log
 license.txt
-index.php
 *.log
 400.shtml
 401.shtml
@@ -19,7 +18,7 @@ index.php
 500.shtml
 decon-staging.esproj/
 .sass-cache/
-pdxwinetour.esproj/
+
 
 # Wordpress core files
 wp-activate.php
