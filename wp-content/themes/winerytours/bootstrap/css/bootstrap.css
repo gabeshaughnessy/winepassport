@@ -133,9 +133,9 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: 'Josefin Sans', arial, sans-serif;
-  font-size: 15px;
-  line-height: 18px;
+  font-family: 'Droid Serif', arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
   color: #333333;
   background-color: #ffffff;
 }
@@ -361,8 +361,8 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: 'Josefin Slab', serif;
-  font-weight: bold;
+  font-family: 'Cabin Sketch', serif;
+  font-weight: 400;
   color: #333333;
   text-rendering: optimizelegibility;
 }
@@ -914,7 +914,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Josefin Sans', arial, sans-serif;
+  font-family: 'Cabin Sketch', arial, sans-serif;
 }
 label {
   display: block;
@@ -2912,7 +2912,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-search .search-query {
   padding: 4px 9px;
-  font-family: 'Josefin Sans', arial, sans-serif;
+  font-family: 'Cabin Sketch', arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;

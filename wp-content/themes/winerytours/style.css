@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/copyleft/gpl.html
 Before you go all crazy editing this document, make sure to take a look at twitter Bootstrap. This theme relies heavily on the bootstrap, so look there first: http://twitter.github.com/bootstrap 
 */
 body {
-	font-size: 16px;
+	font-size: 14px;
 width: 100%;
 }
 p, h1, h2, h3, h4, h5, h6, ul, li {background: url('');
@@ -74,7 +74,8 @@ height: 400px;
 #description h3{
 	text-transform: none;
 	display: block;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: 700;
 	line-height: 41px;
 	vertical-align: top;
 	height: 38px;
@@ -89,9 +90,9 @@ height: 400px;
 	float: left;
 	width: 975px;
 	margin-left: 2px;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Cabin Sketch', serif;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .navbar li a{
@@ -177,8 +178,8 @@ position: relative;
 top: -10px;
 text-align: center;
 padding-top: 18px;
-font-family: 'Josefin Slab';
-font-weight: bold;
+font-family: 'Cabin Sketch';
+font-weight: 700;
 font-size: 24px;
 text-shadow: 0 -1px 0px rgba(0, 0, 0, .5), 0 1px 2px rgba(255, 255, 255,0.2);
 }
@@ -256,7 +257,7 @@ text-shadow: 0 -1px 0px rgba(0, 0, 0, .5), 0 1px 2px rgba(255, 255, 255,0.2);
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, .3);
 }
 .action {
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 1.2em;
 	line-height: 46px;
 }
@@ -330,7 +331,7 @@ text-shadow: 0 -1px 0px rgba(0, 0, 0, .5), 0 1px 2px rgba(255, 255, 255,0.2);
 .archive .post h4{
 	margin:  20px 0 5px;
 	color: #a00;
-        font-size: .8em;
+        font-size: 1em;
 }
 .archive .post h4 a{
 		color: #333;

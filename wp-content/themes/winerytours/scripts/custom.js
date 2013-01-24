@@ -1,6 +1,5 @@
 jQuery(document).ready(function($){
 	$('.dropdown-menu').prev('a').dropdown();
-	
 	$('.dropdown-menu').prev('a').click(function(e){
 		$('.navbar li').removeClass('open');
 		$(this).parent('li').addClass('open');
