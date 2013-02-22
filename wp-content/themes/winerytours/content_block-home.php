@@ -48,8 +48,15 @@ get_template_part('pitch');
 					<div class="cta span4">
 					<div class="matted">
 					<?php 
-					
+					if($i == 1 && isset($featured_distillery)){
+						echo $featured_distillery;
+					}
+					elseif($i == 2 && isset($featured_partner)){
+					 echo $featured_partner;
+					}
+					else{
 					the_post_thumbnail('three-col');
+					}
 					
 					 ?>
 					</div>
