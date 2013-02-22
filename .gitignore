@@ -10,14 +10,15 @@ _readme_.txt
 error_log
 license.txt
 *.log
+*.DS_Store
 400.shtml
 401.shtml
 403.shtml
 404.shtml
 500.php
 500.shtml
-decon-staging.esproj/
-.sass-cache/
+pdxwinetour.esproj/
+*.sass-cache/
 
 
 # Wordpress core files
