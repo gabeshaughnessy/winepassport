@@ -149,7 +149,11 @@ else {
 	<h4 class="lined">Wines</h4>
 	<ul>
 	<?php
-	 $my_terms = wp_get_post_terms( $post->ID, 'winery', array('fields'=>'names')); 
+	$productshot = get_post_meta($post->ID, 'drt_productshot', true);
+	if($productshot){
+	echo '<li><img src='.$productshot.' width="280" height="auto" alt="Product Line" /></li>';
+	}
+	/* $my_terms = wp_get_post_terms( $post->ID, 'winery', array('fields'=>'names')); 
 	$args = array(
 	'post_type' => 'drt_wine',
 	'order' => 'ASC',
@@ -175,6 +179,7 @@ else {
 	
 	// Reset Post Data
 	wp_reset_postdata();
+	*/
 	?>
 	
 	</ul> 

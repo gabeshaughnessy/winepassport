@@ -331,6 +331,12 @@ function be_create_metaboxes() {
 				'type' => 'text'
 			),
 			array(
+				'name' => 'Product Family Photo', 
+			    'desc' => 'The product line shot',
+				'id' => 'drt_productshot',
+				'type' => 'file'
+			),
+			array(
 				'name' => 'QR Code', 
 			    'desc' => 'The URL for the QR Code that links to this parnter profile',
 				'id' => 'drt_qrcode',
