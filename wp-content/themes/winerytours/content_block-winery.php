@@ -25,8 +25,9 @@
  
    <?php the_content(); ?>
    <?php
-   $thumbnail_id = get_post_thumbnail_id(get_the_ID());
-    echo do_shortcode('[gallery columns="1" exclude="'.$thumbnail_id.'" size="eight-col" link="file"]'); ?>
+   //gallery:
+  // $thumbnail_id = get_post_thumbnail_id(get_the_ID());
+   // echo do_shortcode('[gallery columns="1" exclude="'.$thumbnail_id.'" size="eight-col" link="file"]'); ?>
  </div>
 </div>
  </div> <!-- closes the first div box -->
