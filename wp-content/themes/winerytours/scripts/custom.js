@@ -10,14 +10,9 @@ jQuery(document).ready(function($){
 	//dont do anything for explorer
 	   }
 	   else{
-	$('#pitch .pitch-content').each(function(){
-		var imgSrc = $(this).find('img').attr('src');
-		
-		$(this).css({'background-image': 'url('+templateDir+'/images/paper_bg.png), url(' +imgSrc+')'});
-		$(this).find('img').css({'opacity':0});
-		console.log(templateDir);
-	});
-	
+		var imgSrc = jQuery('#bottom').find('img').attr('src');
+		jQuery('#bottom').find('.texture').css({'width':'100%', 'height':'100%', 'background-image': 'url('+templateDir+'/images/paper_bg.png), url(' +imgSrc+')'});
+		jQuery('#bottom').find('img').css({'opacity':0});
 	}
 	
 	jQuery('.flexslider').flexslider({
@@ -31,4 +26,7 @@ jQuery(document).ready(function($){
 
 
 jQuery(window).load(function() {
+
+
+
  });

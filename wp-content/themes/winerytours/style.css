@@ -56,7 +56,7 @@ height: 400px;
 #footer {
 	
 }
-#bg_image{
+#bg_image, #bottom .texture{
 	position: fixed;
 	z-index: -1;
 	top: 0;
